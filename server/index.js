@@ -27,7 +27,7 @@ define([
         main: function() {
             Logger.initConsole("INFO");
             var server = new Server({
-                tcpPort: 8080,
+                tcpPort: 8807,
                 views: [
                     "server/views/test"
                 ]
